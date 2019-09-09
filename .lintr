@@ -1,0 +1,13 @@
+linters:
+	with_defaults(
+		line_length_linter(120),
+		object_usage_linter = NULL,
+		camel_case_linter = NULL,
+		commas_linter = NULL,
+		multiple_dots_linter = NULL
+	)
+exclusions: 
+	list(
+		"R/RcppExports.R"
+	)
+
